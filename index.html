@@ -323,11 +323,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 
 @media (max-width: 520px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  .hero, .hero > * { min-width: 0; }
   .brand-text { display: none; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .btn { justify-content: center; }
   .hero-meta { font-size: 9px; }
-  .hero-visual { transform: scale(.74); margin-left: -14%; width: 128%; }
+  .hero-visual { transform: scale(.74); transform-origin: center center; margin-left: 0; width: 100%; }
   .section-head h2, .about-title h2 { font-size: 43px; }
   .project-art { min-height: 330px; border-radius: 20px; }
   .chat-main { padding: 18px; }
