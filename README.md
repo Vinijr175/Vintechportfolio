@@ -1,4 +1,4 @@
-# Victor Oyeyipo — Portfolio V1
+# Victor Oyeyipo — Portfolio 
 
 A polished, zero-dependency portfolio site for Oyeyipo Ayomide Victor, Full-Stack Software Engineer.
 
